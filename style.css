@@ -3,41 +3,55 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Alegreya', serif;    
+    font-family: 'Alegreya', serif;   
+    font-size: 16px;     
 }
 
 .cartao {
-    height: 120mm;
-    width: 85mm;
-    background-image: url('https://bl6pap004files.storage.live.com/y4mbVDqppXLEcE-vjUKZ2HT6ZzjzLFx58Dwt8vxQfNMUyZdA6ftz0oa3WZxOsauz8MBRL1lzJsT1J0Qs4i_KIoeBuIkPWVMT0soYzw__qs5qxJKPLuZYWlLipafO8Wj0RpYWRBVJSyVBl2DdCNqrepTtnhzADxah4dSiIvDOfIs7SDLYrOTCS9g7sRy7As3Rghb?encodeFailures=1&width=442&height=625');
+    height: 906px;
+    width: 642px;
     background-image: url('https://bl6pap004files.storage.live.com/y4mqQ2-cQlyLqh53wyXRX8AiK8zz73jPDWSLFP-1rXPPDurPizpbDwPllNRjMKeui7bFxQerVP09hXI6WW7iPHEDGQ61E1dseECJnYDEvp3Xsq7QKmZCIRelqvgKX5Ld-HblEnClMo6VKBVZ60qvh4tGIyw8QeyjfwghbgH4ZbYCPTvuWbFOk81gldkkBBubXXc3g8cVZmUach-jw1fgJVkvfxu75FLgQNdlkQAzKbiKK0?encodeFailures=1&width=557&height=787');
     background-size: cover;
     margin: 20px auto;
+    border-radius: 1rem;;
 }
 
 .nome {    
-    font-size: 20px;
+    font-size: 2.45rem;
     line-height: 1;
-    padding-top: 30px;
-    margin-left: 32px;
+    padding-top: 60px;
+    margin-left: 65px;
     color: #5c382f;
     font-weight:700;    
 }
 
 .niver {    
-    font-size: 20px;
-    margin-top: 330px;
-    padding-bottom: 1px;
-    margin-left: 32px;
+    font-size: 2.2rem;
+    margin-top: 678px;
+    padding-bottom: px;
+    margin-left: 65px;
     color: #5c382f;
     font-weight:700;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    background-color: #d1aca2b9;
+    color: #5c382f;
+    font-size: 1.1rem;
+    border-radius: .7rem;
 }
 
 footer {
     text-align: center;
     color: #5c382f;
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 1rem;  
+    padding: 20px;
 }
 
 a {
