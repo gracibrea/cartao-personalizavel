@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartao MM-IBJA</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    
     <div class="cartao">
         <div class="nome">Querida <br>Jaqueline</div>
         <div class="niver">20/20/2020</div>
     </div>
-
+        
     <div class="button">
-        <center><button>Salvar como imagem</button></center>
+        <button class="generate-image" type="button">Salvar Cartão</button>
+        <a class="download" href="image/png" download alt="cartao">
+          </a>
+
+        <!--<button onclick="saveCanvasImage(canvas)" class="download" type="button">Salvar Imagem</button>-->       
+
     </div>
 
 <footer>Made with ❤ by <a href="https://meu-cartao.vercel.app/">Cláudia Krüger</a></footer>
-<script src="script.js"></script>
+<script src="./scripts/html2canvas.min.js"></script>
+<script src="./scripts/script.js"></script>
+
 </body>
 </html>
