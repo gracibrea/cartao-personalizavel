@@ -12,6 +12,7 @@ btnGenerate.addEventListener('click', () =>  {
       btnDownload.href = canvas.toDataURL('image/png');
       btnDownload.download =  'Cartão';
       btnDownload.click();
-        document.body.appendChild(canvas)
+        //document.body.appendChild(canvas)
+      btnDownload.remove();  
     })
 });
